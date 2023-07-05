@@ -1,5 +1,6 @@
 package com.example.oogway
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -68,6 +69,11 @@ class ProfileFragment : Fragment() {
             usernameTV.text = user.username
             Picasso.get().load(user.profileImage).transform(transformation).into(imageView)
         }
+
+//        logOutBtn.setOnClickListener {
+//            FirebaseAuth.getInstance().signOut()
+//            startActivity(Intent(this, LoginActivity::class.java))
+//        }
     }
 
     private fun getUser(documentId: String, callback: (User) -> Unit) {
