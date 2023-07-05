@@ -20,7 +20,7 @@
         android:id="@+id/usernameTV"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="No Username"
         android:textSize="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginHorizontal="32dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/userUrlET" />
 
     <Button
-        android:id="@+id/uploadBtn"
+        android:id="@+id/updateBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -84,6 +84,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uploadBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/updateBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,6 @@
 package com.example.oogway
 
-class Post {
-}
+data class Post (
+    val text: String,
+    val author: User
+)
